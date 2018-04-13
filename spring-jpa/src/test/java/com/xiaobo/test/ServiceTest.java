@@ -35,13 +35,13 @@ public class ServiceTest {
 	@Autowired
 	ManyToManyThirdService manyToManyThirdService;
 	
-	/*@Test
+	@Test
 	public void oneFirstTest(){
 		List<OneFirst> lists = oneFirstService.findAll();
 		System.out.println(lists.size());
-	}*/
+	}
 	
-	@Test
+	//@Test
 	public void oneToManyFirstTest(){
 		/*try {
 			List<OneToManyFirst> lists = oneToManyFirstService.findAll();
