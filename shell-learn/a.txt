@@ -1,0 +1,5 @@
+I am good at Ada Script \n 
+I am good at Coffe Script \n 
+I am good at Action Script \n 
+I am good at Java Script \n 
+test \n
