@@ -1,0 +1,79 @@
+@charset "utf-8";
+body {
+    font-family: 'Microsoft Yahei';
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background: url('/img/bg5.jpg')no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+    margin: 0;
+}
+
+.login-div {
+	width: 255px;
+	height: 320px;
+	float: right;
+	margin-top: 120px;
+	margin-right: 100px;
+	border: 1px #669999 solid;
+}
+form {
+	margin-top: 10px;	
+}
+form>div {
+	line-height: 20px;
+	margin-left: 12px;
+}
+form>div>input[type=text] {
+	height: 25px;
+	border: 1px #669999 solid;
+	border-radius: 3px;
+	width: 195px;
+	padding-left:35px;
+}
+form>div>input[type=password] {
+	width: 195px;
+	height: 25px;
+	border: 1px #669999 solid;
+	border-radius: 3px;
+	padding-left:35px;
+}
+form>lable {
+	margin-left: 12px;
+	display: block;
+	margin-top: 20px;
+	font-size: 12px;
+	font-weight: 700;
+}
+.submit-div {
+	margin-top: 30px;
+}
+.submit-div>input {
+	width: 232px;
+	border: 1px #669999 solid;
+	background: #669999;
+    border-color: #669999;
+	border-radius: 3px;
+    padding: 8px 5px;
+    margin-top: 5px;
+    font-size: 14px;
+    color: #fff;
+    line-height: 16px;
+    cursor: pointer;
+}
+.user-img {
+	position: absolute;
+	margin-left: 12px;
+	margin-top: 5px;
+	width: 16px;
+}
+
+.pwd-img {
+	position: absolute;
+	margin-left: 12px;
+	margin-top: 5px;
+	width: 16px;
+}

@@ -1,0 +1,42 @@
+@charset 'utf-8';
+
+
+.pageControl {
+	margin-right: 15px;
+	margin-top: 5px;
+	margin-left: 16px;
+	font-size: 14px;
+	text-align:center;
+}
+
+.jbtn {
+	border: 1px solid #676767;
+	border-radius:3px;
+	height: 32px;
+	min-width: 30px;
+	background-color: #fff;
+	margin-top:2px;
+	margin-bottom: 2px;
+	margin-left: 4px;
+	margin-right: 4px;
+	outline: none;
+	text-align: center;
+}
+
+.jumpText{
+	border-radius: 3px;
+	width: 30px;
+	height: 30px;
+	border:1px solid #676767;
+	margin-top:2px;
+	margin-bottom: 2px;
+	margin-left: 4px;
+	margin-right: 4px;
+	outline: none;
+	text-align: center;
+}
+
+.nowPage{
+	background-color: #94abd7;
+	color:#fff;
+}

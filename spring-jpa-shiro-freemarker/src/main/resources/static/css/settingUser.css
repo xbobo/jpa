@@ -1,0 +1,41 @@
+.tab-right>button{
+	font: 14px 'Microsoft Yahei';
+	border-radius: 8px;
+	-webkit-border-radius: 8px;
+	border: 0;
+	margin-right: 0px;
+    margin-top: -10px;
+    margin-bottom: 10px;
+    width: 80px;
+    height: 30px;
+    cursor: pointer;
+    background-color: #3469af;
+    color: #fff;
+    outline: none;
+}   
+.title>h5{
+	display: inline-block;
+    font: 14px "Microsoft Yahei";
+    color: #272727;
+    margin-top: 28px;
+    margin-left: 25px;
+    margin-bottom: 13px;
+    width:50%;
+}
+.title>h5>a{
+	text-decoration:none;
+	color:#272727; 
+}
+.title_font{
+	font: 600 16px '微软雅黑';color:#000
+}
+.title_header{
+	border-bottom: 1px solid #d7d7d7;
+    margin-top: 17px;
+    margin-left: 20px;
+    height: 50px;
+}
+#setingSelect{
+	width:200px;background-color:#fff;
+	 margin:0 auto;
+}

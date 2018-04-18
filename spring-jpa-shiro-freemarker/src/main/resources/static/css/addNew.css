@@ -1,0 +1,554 @@
+.mainContent > h5 {
+    position: relative;
+    margin: 0;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #dcdcdc;
+}
+
+.mainContent > h5 > a {
+    font: 14px 'Microsoft Yahei';
+    text-decoration: none;
+    color: #272727;
+}
+
+.mainContent-body {
+    border: 1px solid #e1e1e1;
+    padding: 35px;
+    /* margin-top: 25px; */
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 25px;
+}
+
+.mainContent-body-base {
+    border-top: 1px solid #eeeeee;
+    position: relative;
+    width: 948px;
+    margin: 0 auto;
+}
+
+.mainContent-body-base > span,
+.mainContent-body-set > span,
+.jurisdiction > span {
+    display: block;
+    width: 120px;
+    height: 30px;
+    background-color: #eeeeee;
+    -webkit-border-radius: 15px;
+    border-radius: 15px;
+    text-align: center;
+    font: 600 14px/30px "Microsoft Yahei";
+    position: absolute;
+    top: -15px;
+    left: 50%;
+    margin-left: -60px;
+}
+
+.mainContent-body-base > form {
+    margin-top: 40px;
+}
+
+.mainContent-body-base > form > span,
+.mainContent-body-base > form > label {
+    display: inline-block;
+    width: 445px;
+    position: relative;
+    margin-bottom: 20px;
+    font: 14px 'Microsoft Yahei';
+}
+
+.mainContent-body-base > form > span > select,
+.mainContent-body-base > form > label > input {
+    position: absolute;
+    left: 82px;
+    top: 0;
+    outline: none;
+    font: 12px 'Microsoft Yahei';
+}
+
+.mainContent-body-base > form > label > input {
+    padding: 5px;
+    width: 180px;
+    height: 25px;
+}
+
+.mainContent-body-base > form > .form-button {
+    padding: 0;
+    margin: 0;
+    margin-top: 15px;
+}
+
+.form-button > input {
+    width: 82px;
+    height: 30px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    background-color: #4d8ed1;
+    border: 0;
+}
+
+.form-button > input[id="submitBtn"] {
+    color: #FFF;
+    cursor: pointer;
+    text-align: center;
+    background: #4d8ed1;
+}
+
+.form-button > input[id="cancel"]{
+	color:#FFF;
+	cursor:pointer;
+	text-align:center;
+	background:#4d8ed1;
+}
+
+.form-button > input {
+    color: #4d8ed1;
+    background-color: #fff;
+    margin-left: 10px;
+    outline: none;
+}
+
+.mainContent-body-set {
+    position: relative;
+    border-top: 1px solid #eeeeee;
+    padding-top: 45px;
+    margin-top: 35px;
+}
+
+.mainContent-body-set > div > span > h5 {
+    display: inline-block;
+    font: 600 14px 'Microsoft YaHei';
+}
+
+.mainContent-body-set > div > span {
+    display: block;
+    border-bottom: 1px solid #eee;
+    position: relative;
+}
+
+.mainContent-body-set > div > span > a {
+    position: absolute;
+    right: 0px;
+    top: 30px;
+    font: 13px 'Microsoft Yahei';
+    text-decoration: none;
+    width: 60px;
+    height: 20px;
+    background-color: #FFF;
+    text-align: right;
+}
+
+.mainContent-body-set > div > span > a > img {
+    position: absolute;
+    left: 9px;
+}
+
+.mainContent-body-set form {
+    margin-top: 15px;
+    padding-left: 40px;
+    /* position: relative; */
+    padding-right: 60px;
+    /* display: none; */
+    margin-bottom: 45px;
+}
+
+.ben,
+.jing,
+.carLevel {
+    display: block;
+    font: 12px 'Microsoft Yahei';
+    position: relative;
+    margin: 0;
+}
+
+.ben > span,
+.jing > span,
+.carLevel>span {
+    position: absolute;
+    left: -40px;
+    top: 0px;
+}
+
+.mainContent-body-set form .cancelButton, .brandForm > .brandSet-cancelButton {
+    background-color: #FFF;
+    color: #4d8ed1;
+    border: 0;
+    height: 30px;
+    /* display: none; */
+    width: 92px;
+}
+
+.jing > .jing-compile {
+    position: absolute;
+    top: 20px;
+    right: -60px;
+    text-decoration: none;
+    cursor: pointer;
+    display: none;
+}
+
+.carLevel>.carLevel-compile{
+	position: absolute;
+    top: 20px;
+    right: -60px;
+    text-decoration: none;
+    cursor: pointer;
+    display: none;
+}
+
+.jing > .jing-compile > i,
+.YQform > .jing-compile > i,
+.carLevel>.carLevel-compile>i {
+    font: 13px "Microsoft Yahei";
+    margin-left: 8px;
+}
+
+.jing > .jing-span,
+.ben > div,
+.carLevel>div {
+    position: relative;
+    display: inline-block;
+}
+
+.jing > .jing-span > img,
+.ben > div > img{
+    position: absolute;
+    right: 0px;
+    top: -5px;
+    cursor: pointer;
+    display: none;
+}
+
+.YQform > div > span {
+    position: relative;
+    display: inline-block;
+}
+
+.YQform > div > span > img {
+    position: absolute;
+    right: 0px;
+    top: -10px;
+    cursor: pointer;
+    display: none;
+}
+
+.yuQingSet > .YQform {
+    position: relative;
+    padding: 0;
+}
+
+.brandForm {
+    position: relative;
+}
+
+.YQform > .jing-compile {
+    position: absolute;
+    right: 0;
+    top: 9px;
+    display: none;
+    text-decoration: none;
+    cursor: pointer;
+    z-index: 100;
+}
+
+.YQform > .YQformCon {
+    /* padding-right: 40px; */
+    position: relative;
+}
+
+.YQform > .YQformCon > span:first-child > input {
+    text-align: center;
+}
+
+.jing-compile {
+    position: relative;
+}
+
+.carLevel-compile{
+	position: relative;
+}
+
+.brandForm > .jing-compile {
+    position: absolute;
+    right: 0;
+    top: 35px;
+    font-style: normal;
+    text-decoration: none;
+    cursor: pointer;
+    display: none;
+}
+
+.brandForm > .jing-compile > i {
+    font: 13px "Microsoft Yahei";
+    margin-left: 8px;
+}
+
+.brandForm > div > span > img {
+    position: absolute;
+    right: 0;
+    top: -10px;
+    display: none;
+    cursor: pointer;
+}
+
+.jurisdiction {
+    margin-top: 10px;
+    border-top: 1px solid #eeeeee;
+    position: relative;
+}
+
+.jurisdiction > table {
+
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    border: 1px solid #e8e8e8;
+    margin-top: 50px;
+}
+
+.jurisdiction > table th {
+    text-align: center;
+    height: 40px;
+    background-color: #f5f8fb;
+}
+
+.jurisdiction > table tr {
+    border-bottom: 1px solid #e8e8e8;
+}
+
+.jurisdiction > table td {
+    height: 35px;
+    font: 12px/35px 'Microsoft Yahei';
+    width: 140px;
+}
+
+.track {
+    display: block;
+    position: relative;
+    width: 50px;
+    height: 24px;
+    margin: 0 auto;
+    -webkit-border-radius: 15px;
+    border-radius: 15px;
+    cursor: pointer;
+    border: 1px solid #dadada;
+
+}
+
+.track > i {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    top: 1px;
+    border: 1px solid #d5d5d5;
+}
+
+.trackOn {
+    background-color: #4bd864;
+}
+
+.trackOn > i {
+    left: 26px;
+}
+
+.trackOff {
+    background-color: #FFF;
+}
+
+.trackOff > i {
+    left: 3px;
+}
+
+.YQformCon-con {
+    position: relative;
+}
+
+.YQform-three {
+    display: inline-block;
+    padding-left: 350px;
+}
+
+.YQform-second {
+    display: inline-block;
+    position: absolute;
+    left: 155px;
+}
+
+.YQform-first {
+    position: absolute;
+}
+
+.YQform-second > span {
+    position: absolute;
+    left: 0;
+}
+
+.YQform-second > span > i {
+    position: absolute;
+    right: -37px;
+    top: 4px;
+    font: 12px 'Microsoft Yahei';
+}
+
+.YQform-second > span > img {
+    position: absolute;
+    right: 0;
+    top: -10px;
+    cursor: pointer;
+    display: none;
+}
+
+.YQform-three > .YQform-three-div > span > img {
+    position: absolute;
+    right: 0;
+    top: -10px;
+    cursor: pointer;
+    display: none;
+}
+
+.YQform-three > .YQform-three-div > span {
+    position: relative;
+}
+
+.YQformCon > div > span > i {
+    font: 12px 'Microsoft Yahei';
+}
+
+.ms-ctn .ms-sel-item {
+    margin-top: 3px;
+}
+
+.jing > span {
+    top: 15px;
+}
+
+.ben {
+    width: 220px;
+    position: relative;
+}
+
+.carLevel{
+	width: 100%;
+    position: relative;
+}
+
+.mainContent-body-set .saveButton, .mainContent-body-set .cancelButton {
+    width: 85px;
+    height: 30px;
+    border: 0;
+    color: #fff;
+    border-radius: 5px;
+    margin-right: 7px;
+    outline: none;
+    font: 500 12px 'Microsoft Yahei';
+    margin-left: 7px;
+    margin-top: 25px;
+    /* display: none; */
+}
+
+.mainContent-body-set .saveButton {
+    background-color: #4d8ed1;
+}
+
+.ben > img{
+    position: absolute;
+    right: -7px;
+    top: -7px;
+    z-index: 100;
+    cursor: pointer;
+}
+
+.YQformCon-con > div:nth-child(1) {
+    width: 150px;
+    display: inline-block;
+    margin-bottom: 20px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.mainContent-body-set .YQform {
+    padding: 0;
+    position: relative;
+}
+
+.YQform .saveButton {
+    margin-left: 50px;
+    margin-top: 16px;
+}
+
+.YQformCon img {
+    position: absolute;
+    left: 142px;
+    top: -7px;
+    z-index: 100;
+    cursor: pointer;
+}
+
+.YQformCon-con-div {
+    margin-left: 220px;
+}
+
+.YQformCon-con-div > div:nth-child(2) {
+    display: inline-block;
+    width: 150px;
+}
+
+.YQformCon-con-div > div:nth-child(n+3){
+    display: inline-block;
+    width: 430px;
+    /* float: right; */
+    margin-right: 60px;
+    position: absolute;
+    /* right: 0; */
+    margin-left: 85px;
+    top: 0;
+}
+.YQformCon-con-div {
+    position: relative;
+    /* float: left; */
+}
+
+.YQformCon-con-div > i {
+    font: 12px 'Microsoft YaHei';
+    position: absolute;
+    left: 158px;
+    top: 8px;
+}
+
+.YQformCon-con > i {
+    position: absolute;
+    left: 158px;
+    top: 8px;
+    font: 12px "Microsoft Yahei";
+}
+.QformCon-con-Two{
+    display: inline-block;
+    position: relative;
+}
+.QformCon-con-Two>span{
+    position: absolute;
+    bottom: -45px;
+    width: 150px;
+    border: 1px solid #e1e1e1;
+    color: #999;
+    height: 30px;
+    cursor: pointer;
+    text-align: center;
+    font: 12px/30px "Microsoft Yahei";
+}
+.QformCon-con-Two>span>i{
+    list-style: none;
+    font-weight: 600;
+    margin-right: 10px;
+    font: 18px/25px "Microsoft Yahei";
+}
+.QformCon-con-Two>div{
+    margin-bottom: 35px;
+}
+.mainLeft > span:nth-child(1) > a > i {
+    background: url('../../../images/backstage/left.png') no-repeat -11px -5px;
+} 

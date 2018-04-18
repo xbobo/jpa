@@ -1,0 +1,80 @@
+@charset "utf-8";
+.right>h5{
+	display: inline-block;
+    font: 14px "Microsoft Yahei";
+    color: #272727;
+    margin-top: 28px;
+    margin-left: 25px;
+    margin-bottom: 13px;
+}
+
+.right>h5>a{
+	text-decoration:none;
+	color:#272727; 
+}
+
+.mainContent-body-base {
+    border-top: 1px solid #eeeeee;
+    position: relative;
+    width: 80%;
+    margin-top: 30px;
+    margin-left:10%;
+}
+
+.mainContent-body-base > span {
+    display: block;
+    width: 120px;
+    height: 30px;
+    background-color: #eeeeee;
+    -webkit-border-radius: 15px;
+    border-radius: 15px;
+    text-align: center;
+    font: 600 14px/30px "Microsoft Yahei";
+    position: absolute;
+    top: -15px;
+    left: 50%;
+    margin-left: -60px;
+}
+
+.mainContent-body-base > form {
+    margin-top: 50px;
+}
+
+.mainContent-body-base > form > label {
+    display: inline-block;
+    width: 280px;
+    position: relative;
+    margin-bottom: 25px;
+    margin-left:35%;
+    font: 14px 'Microsoft Yahei';
+    
+}
+
+.mainContent-body-base > form > label > input,select {
+    position: absolute;
+    left: 82px;
+    top: 0;
+    outline: none;
+    font: 12px 'Microsoft Yahei';
+    padding: 5px;
+    width: 180px;
+}
+
+.mainContent-body-base > form >div{
+	margin-top:40px;
+	margin-left:40%;
+	
+}
+
+.mainContent-body-base > form >div>input{
+	font: 14px 'Microsoft Yahei';
+	margin-left:20px;
+	-webkit-border-radius: 8px;
+    border-radius: 8px;
+    width: 50px;
+    height: 30px;
+    color: #fff;
+    border: 0;
+    background-color: #3469af;
+    outline: none;
+}

@@ -1,0 +1,28 @@
+@charset "utf-8";
+.span-active{
+    color: blue;
+}
+sup{
+    color: red;
+}
+.select-btn{
+    background-color: blue;
+}
+.selected-span {
+	background-color: #9e9e9e;
+    width: 80px;
+    text-align: center;
+    border-radius: 9px;
+    color: #fff;
+    display: inline-block;
+}
+
+.hide{
+    display: none;
+}
+.show{
+    display: inline-block;
+}
+.changeEmotion{
+    margin-right:10px;
+}

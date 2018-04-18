@@ -1,0 +1,174 @@
+@charset "utf-8";
+.right>h5{
+	display: inline-block;
+    font: 14px "Microsoft Yahei";
+    color: #272727;
+    margin-top: 28px;
+    margin-left: 25px;
+    margin-bottom: 13px;
+}
+
+.right>h5>a{
+	text-decoration:none;
+	color:#272727; 
+}
+
+.right > h5 > button {
+    font: 14px 'Microsoft Yahei';
+    position: absolute;
+    top: 5%;
+    right: 25px;
+    width: 80px;
+    height: 30px;
+    color: #fff;
+    border: 0;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    background-color: #3469af;
+    outline: none;
+}
+
+.status {
+    margin-left: 25px;
+	margin-right: 25px;
+   	margin-bottom:10px;
+   	padding-top:6px;
+    border: 1px solid #d7d7d7;
+    height: 55px;
+    background-color: #ecf0f9;
+}
+
+.mainContent-table{
+	position: relative;
+	margin-left: 25px;
+	margin-right: 25px;
+	background-color: #ecf0f9;
+}
+
+.mainContent-table>table{
+	text-align: center;
+	width:100%;
+	border-top: 1px solid #d7d7d7;
+	border-left: 1px solid #d7d7d7;
+	border-right: 1px solid #d7d7d7;
+}
+
+.mainContent-table>table th{
+	border-left: 1px solid #d7d7d7;
+}
+
+.mainContent-table>table td{
+	border-left: 1px solid #d7d7d7;
+	border-top: 1px solid #d7d7d7;
+}
+
+.divide-line{
+	height: 10px;
+	margin-left: 25px;
+	margin-right: 25px;
+	border-top: 1px solid #d7d7d7;
+}
+
+.mainContent-table>table th{
+	padding:8px;
+}
+
+.mainContent-table>table td{
+	padding:8px;
+}
+
+.mainContent-table>table>tbody td>a>img{
+	margin-left:5px;
+}
+
+.mainContent-table>table>tbody td>a:nth-child(2):hover{
+	cursor:pointer;
+}
+
+.mainContent-table>table tbody tr:hover{
+	background: #c7ecd5;
+}
+
+.dateStyleCustom{
+    font:600 14px/40px "Microsoft YaHei";
+    margin-left:20px;
+    margin-right:10px;
+}
+
+.dateStyleCustom > input{
+    display: inline-block;
+    vertical-align: middle;
+  	font-style:normal;
+  	font-weight:normal;
+  	line-height:15px;
+  	margin-left:10px;
+  	margin-right:40px;
+}
+
+.dateStyleCustom > select{
+    display: inline-block;
+    vertical-align: middle;
+  	font-style:normal;
+  	font-weight:normal;
+  	line-height:15px;
+  	margin-left:10px;
+  	margin-right:40px;
+}
+
+#demand {
+    float: right;
+    width: 35px;
+    height: 20px;
+    margin: 10px 10px 0 10px;
+    cursor: pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    background-color: #3469af;
+}
+#demand > input {
+    display: block;
+    width: 18px;
+    height: 19px;
+    margin: 2px auto;
+    cursor: pointer;
+    border: 0;
+    outline: none;
+    background: url('/img/magnifier.png') no-repeat;
+}
+
+.table{
+	border-collapse:collapse;
+}
+.table-bordered{
+	border:1px solid #ddd;
+}
+
+.pagging{
+	position: relative;
+    height: 66px;
+    border-left: 1px solid #d7d7d7;
+	border-right: 1px solid #d7d7d7;
+}
+.pagination{
+	list-style: none;
+    display: inline-block;
+    float: right;
+}
+.pagination>li {
+    float: left;
+}
+.pagination>li>a {
+    font: 12px/25px "Microsoft Yahei";
+    text-decoration: none;
+    display: inline-block;
+    width: 26px;
+    height: 26px;
+    background-color: #f7f8f9;
+    border: 1px solid #cfd5e4;
+    margin-right: 15px;
+    text-align: center;
+}
+.pagination>.active>a {
+    color: #FFF;
+    background-color: #a0b0d8;
+}
