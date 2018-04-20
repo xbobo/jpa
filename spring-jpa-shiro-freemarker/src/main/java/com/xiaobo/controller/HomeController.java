@@ -2,6 +2,7 @@ package com.xiaobo.controller;
 
 import java.util.Map;
 
+import org.apache.shiro.authz.annotation.RequiresPermissions;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Controller;
@@ -10,22 +11,34 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 import com.xiaobo.security.Digests;
 import com.xiaobo.security.Encodes;
-import com.xiaobo.vo.Msg;
 
 @Controller
+@RequestMapping(value="/home")
 public class HomeController {
 	
 	private static final Logger log = LoggerFactory.getLogger(HomeController.class);
 	
-    @RequestMapping("/")
+	@RequiresPermissions("organization:create")
+    @RequestMapping("/index")
     public String index(Model model) {
-        Msg msg = new Msg("测试标题", "测试内容", "额外信息，只对管理员显示");
-        model.addAttribute("msg", msg);
-        return "index";
+        return "comlogin";
     }
-    
+	
+	@RequiresPermissions("user:create")
 	@RequestMapping(value = "/test.do")
-	public String opinionJudgeManagement(Map<String, Object> model,
+	public String test(Map<String, Object> model,
+			Integer pageNo) {
+		try {
+			return "test";
+		} catch (Exception e) {
+			e.printStackTrace();
+			log.error("管理员---舆情数据研判-查看出错", e);
+			return "/";
+		}
+	}
+	
+	@RequestMapping(value = "/first.do")
+	public String first(Map<String, Object> model,
 			Integer pageNo) {
 		try {
 			return "test";

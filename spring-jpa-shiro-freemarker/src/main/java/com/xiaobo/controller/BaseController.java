@@ -5,7 +5,9 @@ import org.apache.shiro.SecurityUtils;
 import com.xiaobo.security.ShiroDbRealm.ShiroUser;
 /**
  * 
- * @author xiaobo
+ * @Package: com.xiaobo.controller 
+ * @author: xiaobo   
+ * @date: 2018年4月18日 下午2:01:24 
  *
  */
 public abstract class BaseController {

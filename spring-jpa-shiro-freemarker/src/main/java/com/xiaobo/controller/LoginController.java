@@ -19,7 +19,13 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 import com.xiaobo.util.RSAUtils;
 
-
+/**
+ * 
+ * @Package: com.xiaobo.controller 
+ * @author: xiaobo   
+ * @date: 2018年4月18日 下午2:01:16 
+ *
+ */
 @Controller
 @RequestMapping(value = "/login")
 public class LoginController {
@@ -85,13 +91,15 @@ public class LoginController {
 	public String index() {
 
 		Subject subject = SecurityUtils.getSubject();
-		/*if (subject.hasRole("admin")) {
-			return "redirect:test.do";
+		if (subject.hasRole("admin")) {
+			System.out.println("admin");
+			return "test";
 		} else if (subject.hasRole("public")) {
-			return "redirect:test.do";
-		}*/
+			System.out.println("public");
+			return "test";
+		}
 		
-		return "redirect:/test.do";
+		return "redirect:/login";
 	}
 	
 }
